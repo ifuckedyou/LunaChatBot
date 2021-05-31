@@ -24,7 +24,7 @@ async def getresp(query: str, user_id: int):
 @luna.on_message(filters.command("repo") & ~filters.edited)
 async def repo(_, message):
     await message.reply_text(
-        "[GitHub](https://github.com/thehamkercat/LunaChatBot)"
+        "[Sourcecode](https://t.me/Baby_xD)"
         + " | [Group](t.me/PatheticProgrammers)",
         disable_web_page_preview=True,
     )
