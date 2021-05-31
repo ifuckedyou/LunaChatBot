@@ -9,8 +9,8 @@ from Python_ARQ import ARQ
 luna = Client(
     ":memory:",
     bot_token=bot_token,
-    api_id=6,
-    api_hash="eb06d4abfb49dc3eeb1aeb98ae0f581e",
+    api_id=1061393,
+    api_hash="dee44b60afe8fd325a96f5237e495d7a",
 )
 aiohttp_session = ClientSession()
 arq = ARQ(ARQ_API, ARQ_API_KEY, aiohttp_session)
