@@ -25,7 +25,7 @@ async def getresp(query: str, user_id: int):
 async def repo(_, message):
     await message.reply_text(
         "[Sourcecode](https://t.me/Baby_xD)"
-        + " | [Group](t.me/PatheticProgrammers)",
+        + " | [Group](https://t.me/Hero_Association)",
         disable_web_page_preview=True,
     )
 
